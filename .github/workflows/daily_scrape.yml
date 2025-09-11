@@ -1,0 +1,36 @@
+name: Dagelijkse Getijdenscrape
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # Dagelijks om 05:00 UTC = 07:00 Belgische tijd
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Repo clonen
+      uses: actions/checkout@v4
+
+    - name: Python installeren
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Dependencies installeren
+      run: |
+        pip install -r requirements.txt
+
+    - name: Webscraper uitvoeren
+      run: python scrape_tides.py
+
+    - name: Wijzigingen committen en pushen
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add data_tides.json
+        git commit -m "Dagelijkse update van getijden (automatisch)" || echo "Geen wijzigingen"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
