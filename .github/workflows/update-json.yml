@@ -1,0 +1,40 @@
+name: Update tides JSON daily
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # dagelijks om 04:00 UTC (~06:00 Belgische zomertijd)
+  workflow_dispatch:      # ook handmatig uitvoerbaar via Actions-tab
+
+permissions:
+  contents: write   # nodig om te kunnen pushen
+
+jobs:
+  run-scraper:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scrape_tides.py
+
+      - name: Show JSON content (debug)
+        run: cat data_tides.json
+
+      - name: Commit & push JSON
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data_tides.json
+          git commit -m "Update tides JSON [skip ci]" || echo "Nothing to commit"
+          git push
