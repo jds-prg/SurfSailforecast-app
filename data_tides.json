@@ -1,15 +1,6 @@
 {
   "september 2025": [
     {
-      "dag": "ma. maandag 15 sep",
-      "tijden": [
-        "01:35 uur (Hoogwater)",
-        "07:36 uur (Laagwater)",
-        "14:02 uur (Hoogwater)",
-        "20:15 uur (Laagwater)"
-      ]
-    },
-    {
       "dag": "di. dinsdag 16 sep",
       "tijden": [
         "02:48 uur (Hoogwater)",
@@ -25,6 +16,14 @@
         "10:29 uur (Laagwater)",
         "16:54 uur (Hoogwater)",
         "23:18 uur (Laagwater)"
+      ]
+    },
+    {
+      "dag": "do. donderdag 18 sep",
+      "tijden": [
+        "05:41 uur (Hoogwater)",
+        "11:49 uur (Laagwater)",
+        "18:15 uur (Hoogwater)"
       ]
     }
   ]
