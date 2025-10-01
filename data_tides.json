@@ -1,0 +1,90 @@
+{
+  "oktober 2025": [
+    [
+      {
+        "dag": "",
+        "tijden": []
+      },
+      {
+        "dag": "wo. woensdag 1 okt oktober",
+        "tijden": [
+          "01:33 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "07:51 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "15:13 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "21:07 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "do. donderdag 2 okt oktober",
+        "tijden": [
+          "03:50 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "09:59 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:30 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "22:46 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "vr. vrijdag 3 okt oktober",
+        "tijden": [
+          "04:53 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "11:14 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "17:35 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "23:48 (hoogwater)"
+        ]
+      }
+    ]
+  ]
+}
