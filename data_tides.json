@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "za. zaterdag 18 okt oktober",
-        "tijden": [
-          "06:33 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "12:19 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:49 (laagwater)"
-        ]
-      },
-      {
         "dag": "zo. zondag 19 okt oktober",
         "tijden": [
           "00:52 (hoogwater)"
@@ -75,6 +55,34 @@
         "dag": "",
         "tijden": [
           "20:11 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "di. dinsdag 21 okt oktober",
+        "tijden": [
+          "02:02 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "08:25 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "14:09 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "20:46 (laagwater)"
         ]
       }
     ]
