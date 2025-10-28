@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "ma. maandag 27 okt oktober",
-        "tijden": [
-          "03:56 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "Halloween",
-        "tijden": [
-          "10:16 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "16:17 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "22:32 (laagwater)"
-        ]
-      },
-      {
         "dag": "di. dinsdag 28 okt oktober",
         "tijden": [
           "04:33 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "Halloween",
         "tijden": [
           "10:56 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "23:13 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "wo. woensdag 29 okt oktober",
         "tijden": [
           "05:19 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "Halloween",
         "tijden": [
@@ -75,6 +49,32 @@
         "dag": "",
         "tijden": [
           "17:58 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "do. donderdag 30 okt oktober",
+        "tijden": [
+          "00:16 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "Halloween",
+        "tijden": [
+          "06:24 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "13:41 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "19:41 (hoogwater)"
         ]
       }
     ]
