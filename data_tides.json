@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "do. donderdag 30 okt oktober",
-        "tijden": [
-          "00:16 (laagwater)"
-        ]
-      },
-      {
-        "dag": "Halloween",
-        "tijden": [
-          "06:24 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "13:41 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "19:41 (hoogwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 31 okt oktober",
         "tijden": [
           "02:16 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "(Halloween) Halloween",
         "tijden": [
           "08:17 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
