@@ -671,9 +671,9 @@
             .then(response => response.json())
             .then(data => {
                 const tbody = document.querySelector('#tidesTable tbody');
-                const dagenArrays = data["november 2025"];
+                const dagenArrays = data["december 2025"];
                 if (!dagenArrays) {
-                    tbody.innerHTML = '<tr><td colspan="2">Geen data voor oktober 2025</td></tr>';
+                    tbody.innerHTML = '<tr><td colspan="2">Geen data</td></tr>';
                     return;
                 }
                 // Groepeer per dag
@@ -878,5 +878,6 @@
 
 
 </body>
+
 
 </html>
