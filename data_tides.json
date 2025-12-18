@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "wo. woensdag 17 dec december",
-        "tijden": [
-          "05:56 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "11:41 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:11 (laagwater)"
-        ]
-      },
-      {
         "dag": "do. donderdag 18 dec december",
         "tijden": [
           "00:14 (hoogwater)"
@@ -75,6 +55,34 @@
         "dag": "",
         "tijden": [
           "19:19 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "za. zaterdag 20 dec december",
+        "tijden": [
+          "01:30 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "07:43 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "13:37 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "19:48 (laagwater)"
         ]
       }
     ]
@@ -183,6 +191,32 @@
         "dag": "",
         "tijden": [
           "20:19 (laagwater)"
+        ]
+      },
+      {
+        "dag": "ma. maandag 5 jan januari",
+        "tijden": [
+          "02:12 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "08:46 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "14:33 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "21:04 (laagwater)"
         ]
       }
     ]
@@ -323,6 +357,34 @@
         "dag": "",
         "tijden": [
           "22:05 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "vr. vrijdag 6 feb februari",
+        "tijden": [
+          "03:57 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:34 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:20 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "22:41 (laagwater)"
         ]
       }
     ]
