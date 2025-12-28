@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "za. zaterdag 27 dec december",
-        "tijden": [
-          "05:44 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "12:29 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:27 (hoogwater)"
-        ]
-      },
-      {
         "dag": "zo. zondag 28 dec december",
         "tijden": [
           "00:51 (laagwater)"
@@ -75,6 +55,34 @@
         "dag": "",
         "tijden": [
           "20:39 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "di. dinsdag 30 dec december",
+        "tijden": [
+          "02:55 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "09:01 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "15:31 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "21:41 (hoogwater)"
         ]
       }
     ]
@@ -235,6 +243,34 @@
         "dag": "",
         "tijden": [
           "21:48 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "wo. woensdag 7 jan januari",
+        "tijden": [
+          "03:41 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:16 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:05 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "22:30 (laagwater)"
         ]
       }
     ]
@@ -429,6 +465,60 @@
         "dag": "",
         "tijden": [
           "23:18 (laagwater)"
+        ]
+      },
+      {
+        "dag": "zo. zondag 8 feb februari",
+        "tijden": [
+          "05:17 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "11:47 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "17:42 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "23:50 (laagwater)"
+        ]
+      }
+    ]
+  ],
+  "maart 2026": [
+    [
+      {
+        "dag": "",
+        "tijden": []
+      },
+      {
+        "dag": "zo. zondag 1 maart",
+        "tijden": [
+          "06:02 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "12:01 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "18:28 (laagwater)"
         ]
       }
     ]
