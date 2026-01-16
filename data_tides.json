@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "do. donderdag 15 jan januari",
-        "tijden": [
-          "05:12 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "11:12 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "17:28 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "23:47 (hoogwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 16 jan januari",
         "tijden": [
           "06:15 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "",
         "tijden": [
           "12:08 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "00:35 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "",
         "tijden": [
           "07:00 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -75,6 +49,32 @@
         "dag": "",
         "tijden": [
           "19:00 (laagwater)"
+        ]
+      },
+      {
+        "dag": "zo. zondag 18 jan januari",
+        "tijden": [
+          "01:15 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "07:35 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "13:25 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "19:31 (laagwater)"
         ]
       }
     ]
@@ -135,6 +135,34 @@
         "dag": "",
         "tijden": [
           "20:08 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "di. dinsdag 3 feb februari",
+        "tijden": [
+          "01:57 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "08:35 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "14:18 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "20:48 (laagwater)"
         ]
       }
     ]
@@ -295,6 +323,34 @@
         "dag": "",
         "tijden": [
           "21:36 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "za. zaterdag 7 maart",
+        "tijden": [
+          "03:26 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:04 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "15:48 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "22:07 (laagwater)"
         ]
       }
     ]
