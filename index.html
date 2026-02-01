@@ -671,7 +671,7 @@
             .then(response => response.json())
             .then(data => {
                 const tbody = document.querySelector('#tidesTable tbody');
-                const dagenArrays = data["januari 2026"];
+                const dagenArrays = data["februari 2026"];
                 if (!dagenArrays) {
                     tbody.innerHTML = '<tr><td colspan="2">Geen data</td></tr>';
                     return;
@@ -881,4 +881,5 @@
 
 
 </html>
+
 
