@@ -8,8 +8,8 @@ resp = requests.get(URL)
 soup = BeautifulSoup(resp.text, 'html.parser')
 
 # Maanden die je wilt scrapen
-maanden = ['januari 2026', 'februari 2026', 'maart 2026',
-           'april 2026', 'mei 2026', 'juni 2026', 'juli 2026 ']
+maanden = ['februari 2026', 'maart 2026',
+           'april 2026', 'mei 2026', 'juni 2026', 'juli 2026 ','augustus 2026']
 result = {}
 
 for maand in maanden:
@@ -70,4 +70,5 @@ with open('data_tides.json', 'w', encoding='utf-8') as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
 
 print("Getijden in batches van 3 dagen opgeslagen in data_tides.json")
+
 
