@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "do. donderdag 14 mei",
-        "tijden": [
-          "06:16 (laagwater)"
-        ]
-      },
-      {
-        "dag": "(Hemelvaartsdag) Folkloristische Havenfeesten",
-        "tijden": [
-          "12:17 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:40 (laagwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 15 mei",
         "tijden": [
           "00:32 (hoogwater)"
@@ -77,6 +57,34 @@
           "20:15 (laagwater)"
         ]
       }
+    ],
+    [
+      {
+        "dag": "zo. zondag 17 mei",
+        "tijden": [
+          "02:01 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "Folkloristische Havenfeesten",
+        "tijden": [
+          "08:40 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "14:28 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "20:59 (laagwater)"
+        ]
+      }
     ]
   ],
   "juni 2026": [
@@ -109,6 +117,32 @@
         "dag": "",
         "tijden": [
           "21:24 (laagwater)"
+        ]
+      },
+      {
+        "dag": "di. dinsdag 2 juni",
+        "tijden": [
+          "03:19 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "09:34 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "15:41 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "21:53 (laagwater)"
         ]
       }
     ]
