@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "vr. vrijdag 15 mei",
-        "tijden": [
-          "00:32 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "Folkloristische Havenfeesten",
-        "tijden": [
-          "07:07 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "13:01 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "19:27 (laagwater)"
-        ]
-      },
-      {
         "dag": "za. zaterdag 16 mei",
         "tijden": [
           "01:16 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "Folkloristische Havenfeesten",
         "tijden": [
           "07:54 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "20:15 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "zo. zondag 17 mei",
         "tijden": [
           "02:01 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "Folkloristische Havenfeesten",
         "tijden": [
@@ -76,13 +50,39 @@
         "tijden": [
           "14:28 (hoogwater)"
         ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "20:59 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "ma. maandag 18 mei",
+        "tijden": [
+          "02:46 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "09:23 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "15:13 (hoogwater)"
+        ]
       }
     ],
     [
       {
         "dag": "",
         "tijden": [
-          "20:59 (laagwater)"
+          "21:45 (laagwater)"
         ]
       }
     ]
@@ -143,6 +143,34 @@
         "dag": "",
         "tijden": [
           "21:53 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "wo. woensdag 3 juni",
+        "tijden": [
+          "03:50 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:05 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:09 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "22:22 (laagwater)"
         ]
       }
     ]
