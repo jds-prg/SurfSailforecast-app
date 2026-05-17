@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "za. zaterdag 16 mei",
-        "tijden": [
-          "01:16 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "Folkloristische Havenfeesten",
-        "tijden": [
-          "07:54 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "13:44 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "20:15 (laagwater)"
-        ]
-      },
-      {
         "dag": "zo. zondag 17 mei",
         "tijden": [
           "02:01 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "Folkloristische Havenfeesten",
         "tijden": [
           "08:40 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "20:59 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "ma. maandag 18 mei",
         "tijden": [
           "02:46 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -76,13 +50,39 @@
         "tijden": [
           "15:13 (hoogwater)"
         ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "21:45 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "di. dinsdag 19 mei",
+        "tijden": [
+          "03:32 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:09 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "15:58 (hoogwater)"
+        ]
       }
     ],
     [
       {
         "dag": "",
         "tijden": [
-          "21:45 (laagwater)"
+          "22:28 (laagwater)"
         ]
       }
     ]
@@ -171,6 +171,32 @@
         "dag": "",
         "tijden": [
           "22:22 (laagwater)"
+        ]
+      },
+      {
+        "dag": "do. donderdag 4 juni",
+        "tijden": [
+          "04:24 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:37 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "16:38 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "22:59 (laagwater)"
         ]
       }
     ]
