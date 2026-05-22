@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "do. donderdag 21 mei",
-        "tijden": [
-          "05:13 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "11:46 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "17:40 (hoogwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 22 mei",
         "tijden": [
           "00:13 (laagwater)"
@@ -77,6 +57,34 @@
           "19:53 (hoogwater)"
         ]
       }
+    ],
+    [
+      {
+        "dag": "zo. zondag 24 mei",
+        "tijden": [
+          "02:19 (laagwater)"
+        ]
+      },
+      {
+        "dag": "(Pinksteren / Pinksterzondag / Eerste Pinksterdag)",
+        "tijden": [
+          "08:33 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "14:49 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "21:02 (hoogwater)"
+        ]
+      }
     ]
   ],
   "juni 2026": [
@@ -109,186 +117,6 @@
         "dag": "",
         "tijden": [
           "21:24 (laagwater)"
-        ]
-      },
-      {
-        "dag": "di. dinsdag 2 juni",
-        "tijden": [
-          "03:19 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "09:34 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "15:41 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "21:53 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "wo. woensdag 3 juni",
-        "tijden": [
-          "03:50 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "10:05 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "16:09 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "22:22 (laagwater)"
-        ]
-      },
-      {
-        "dag": "do. donderdag 4 juni",
-        "tijden": [
-          "04:24 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "10:37 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "16:38 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "22:59 (laagwater)"
-        ]
-      },
-      {
-        "dag": "vr. vrijdag 5 juni",
-        "tijden": [
-          "04:58 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "11:14 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "17:11 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "23:40 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "za. zaterdag 6 juni",
-        "tijden": [
-          "05:38 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "11:56 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "17:53 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "zo. zondag 7 juni",
-        "tijden": [
-          "00:32 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "06:31 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "12:50 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:46 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "ma. maandag 8 juni",
-        "tijden": [
-          "01:40 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "07:36 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "14:02 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "19:57 (hoogwater)"
         ]
       }
     ]
