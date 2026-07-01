@@ -671,7 +671,12 @@
             .then(response => response.json())
             .then(data => {
                 const tbody = document.querySelector('#tidesTable tbody');
-                const dagenArrays = data["juli 2026"];
+                // Bepaal automatisch de huidige maand en het huidige jaar
+                const maanden = [ "januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
+                const vandaag = new Date();
+                const sleutel = `${maanden[vandaag.getMonth()]} ${vandaag.getFullYear()}`;
+                const dagenArrays = data[sleutel];
+                //const dagenArrays = data["juli 2026"];
                 if (!dagenArrays) {
                     tbody.innerHTML = '<tr><td colspan="2">Geen data</td></tr>';
                     return;
