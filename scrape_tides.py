@@ -8,8 +8,7 @@ resp = requests.get(URL)
 soup = BeautifulSoup(resp.text, 'html.parser')
 
 # Maanden die je wilt scrapen
-maanden = ['februari 2026', 'maart 2026',
-           'april 2026', 'mei 2026', 'juni 2026', 'juli 2026 ','augustus 2026','september 2026','oktober 2026','november 2026','december 2026']
+maanden = ['juli 2026 ','augustus 2026','september 2026','oktober 2026','november 2026','december 2026']
 result = {}
 
 for maand in maanden:
