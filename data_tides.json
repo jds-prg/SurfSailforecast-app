@@ -1,38 +1,4 @@
 {
-  "juni 2026": [
-    [
-      {
-        "dag": "",
-        "tijden": []
-      },
-      {
-        "dag": "di. dinsdag 30 juni",
-        "tijden": [
-          "02:33 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "08:47 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "14:57 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "21:18 (laagwater)"
-        ]
-      }
-    ]
-  ],
   "augustus 2026": [
     [
       {
@@ -63,60 +29,6 @@
         "dag": "",
         "tijden": [
           "22:38 (laagwater)"
-        ]
-      },
-      {
-        "dag": "zo. zondag 2 aug augustus",
-        "tijden": [
-          "04:20 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "10:44 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "16:34 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "23:14 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "ma. maandag 3 aug augustus",
-        "tijden": [
-          "04:57 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "11:25 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "17:11 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "23:52 (laagwater)"
         ]
       }
     ]
@@ -151,6 +63,32 @@
         "dag": "",
         "tijden": [
           "23:25 (laagwater)"
+        ]
+      },
+      {
+        "dag": "wo. woensdag 2 sep september",
+        "tijden": [
+          "05:10 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "11:39 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "17:26 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "do. donderdag 3 sep september",
+        "tijden": [
+          "00:06 (laagwater)"
         ]
       }
     ]
