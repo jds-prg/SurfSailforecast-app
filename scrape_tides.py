@@ -7,15 +7,26 @@ URL = 'https://blankenberge.com/nl/getijden-eb-vloed.php'
 resp = requests.get(URL)
 soup = BeautifulSoup(resp.text, 'html.parser')
 
-# Maanden die je wilt scrapen
-maanden = ['juli 2026','augustus 2026','september 2026','oktober 2026','november 2026','december 2026']
-result = {}
+# Maanden die je wilt , neemt de datum van de computer over
+#maanden = ['juli 2026','augustus 2026','september 2026','oktober 2026','november 2026','december 2026']
+#result = {}
+  from datetime import datetime
 
-for maand in maanden:
-    kop = soup.find('h2', string=lambda s: s and maand in s.lower())
-    if not kop:
-        print(f"Kop {maand} niet gevonden!")
-        continue
+  maanden = ["januari", "februari", "maart", "april", "mei", "juni","juli", "augustus", "september", "oktober", "november", "december"]
+
+  from datetime import datetime
+
+  nu = datetime.now()
+  sleutel = f"{maanden[nu.month - 1]} {nu.year}"
+
+  maand = sleutel  # geen lijst nodig
+
+  kop = soup.find('h2', string=lambda s: s and maand.lower() in s.lower())
+
+if not kop:
+    print(f"Kop {maand} niet gevonden!")
+else:
+    print(f"Kop {maand} gevonden!")
 
     # Elke dag staat in een div met class 'row'
     div = kop.find_next_sibling('div')
