@@ -2,26 +2,32 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import re
+from datetime import datetime
 
 URL = 'https://blankenberge.com/nl/getijden-eb-vloed.php'
-resp = requests.get(URL)
+
+try:
+    resp = requests.get(URL, timeout=30)
+    resp.raise_for_status()
+    print("Website getijden actief")
+except requests.exceptions.RequestException:
+    print("Website getijden inactief")
+    exit()
+
 soup = BeautifulSoup(resp.text, 'html.parser')
+result = {}
 
 # Maanden die je wilt , neemt de datum van de computer over
-#maanden = ['juli 2026','augustus 2026','september 2026','oktober 2026','november 2026','december 2026']
-#result = {}
-  from datetime import datetime
 
-  maanden = ["januari", "februari", "maart", "april", "mei", "juni","juli", "augustus", "september", "oktober", "november", "december"]
+maanden = ["januari", "februari", "maart", "april", "mei", "juni","juli", "augustus", "september", "oktober", "november", "december"]
 
-  from datetime import datetime
 
-  nu = datetime.now()
-  sleutel = f"{maanden[nu.month - 1]} {nu.year}"
+nu = datetime.now()
+sleutel = f"{maanden[nu.month - 1]} {nu.year}"
 
-  maand = sleutel  # geen lijst nodig
+maand = sleutel  # geen lijst nodig
 
-  kop = soup.find('h2', string=lambda s: s and maand.lower() in s.lower())
+kop = soup.find('h2', string=lambda s: s and maand.lower() in s.lower())
 
 if not kop:
     print(f"Kop {maand} niet gevonden!")
@@ -29,7 +35,7 @@ else:
     print(f"Kop {maand} gevonden!")
 
     # Elke dag staat in een div met class 'row'
-    div = kop.find_next_sibling('div')
+    div = kop.find_next('div')
     rows = div.find_all('div', class_='row') if div else []
 
     dag_data = []
@@ -42,7 +48,6 @@ else:
 
         dagnaam_datum = cols[0]
 
-        # Haal Hoogwater en Laagwater tijden en eventueel waterhoogte eruit
         hoogwater_matches = re.findall(
             r'(\d{1,2}[:.]\d{2})\s*uur\s*(\d+,\d+)?', cols[1])
         laagwater_matches = re.findall(
@@ -62,7 +67,6 @@ else:
                 s += f" {h}m"
             tides.append(s)
 
-        # Sorteer tijden chronologisch
         tides.sort(key=lambda x: int(
             x.split(':')[0])*60 + int(x.split(':')[1].split()[0]))
 
@@ -71,8 +75,8 @@ else:
             "tijden": tides
         })
 
-    # Maak batches van 3 dagen
     batches = [dag_data[i:i + 3] for i in range(0, len(dag_data), 3)]
+    print(f"{len(dag_data)} dagen gevonden")
     result[maand] = batches
 
 # Opslaan in JSON
