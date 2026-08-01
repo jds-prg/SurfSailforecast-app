@@ -1,20 +1,20 @@
 {
-  "juli 2026": [
+  "augustus 2026": [
     [
       {
         "dag": "",
         "tijden": []
       },
       {
-        "dag": "vr. vrijdag 31 juli",
+        "dag": "za. zaterdag 1 aug augustus",
         "tijden": [
-          "03:19 (hoogwater)"
+          "03:47 (hoogwater)"
         ]
       },
       {
         "dag": "",
         "tijden": [
-          "09:33 (laagwater)"
+          "10:09 (laagwater)"
         ]
       }
     ],
@@ -22,13 +22,67 @@
       {
         "dag": "",
         "tijden": [
-          "15:32 (hoogwater)"
+          "16:01 (hoogwater)"
         ]
       },
       {
         "dag": "",
         "tijden": [
-          "22:04 (laagwater)"
+          "22:38 (laagwater)"
+        ]
+      },
+      {
+        "dag": "zo. zondag 2 aug augustus",
+        "tijden": [
+          "04:20 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "10:44 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:34 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "23:14 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "ma. maandag 3 aug augustus",
+        "tijden": [
+          "04:57 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "11:25 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "17:11 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "23:52 (laagwater)"
         ]
       }
     ]
