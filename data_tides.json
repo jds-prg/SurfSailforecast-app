@@ -6,26 +6,6 @@
         "tijden": []
       },
       {
-        "dag": "ma. maandag 10 aug augustus",
-        "tijden": [
-          "05:51 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "12:05 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "18:39 (laagwater)"
-        ]
-      },
-      {
         "dag": "di. dinsdag 11 aug augustus",
         "tijden": [
           "00:36 (hoogwater)"
@@ -75,6 +55,34 @@
         "dag": "",
         "tijden": [
           "20:29 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "do. donderdag 13 aug augustus",
+        "tijden": [
+          "02:14 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "08:46 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "14:34 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "21:13 (laagwater)"
         ]
       }
     ]
