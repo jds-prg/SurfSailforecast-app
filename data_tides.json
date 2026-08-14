@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "do. donderdag 13 aug augustus",
-        "tijden": [
-          "02:14 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "08:46 (laagwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "14:34 (hoogwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "21:13 (laagwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 14 aug augustus",
         "tijden": [
           "02:57 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "",
         "tijden": [
           "09:28 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "21:55 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "za. zaterdag 15 aug augustus",
         "tijden": [
           "03:38 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "(Onze-Lieve-Vrouw Hemelvaart)",
         "tijden": [
@@ -76,13 +50,39 @@
         "tijden": [
           "15:55 (hoogwater)"
         ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "22:35 (laagwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "zo. zondag 16 aug augustus",
+        "tijden": [
+          "04:19 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "10:46 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "16:36 (hoogwater)"
+        ]
       }
     ],
     [
       {
         "dag": "",
         "tijden": [
-          "22:35 (laagwater)"
+          "23:15 (laagwater)"
         ]
       }
     ]
