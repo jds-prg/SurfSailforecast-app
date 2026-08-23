@@ -6,45 +6,19 @@
         "tijden": []
       },
       {
-        "dag": "za. zaterdag 22 aug augustus",
-        "tijden": [
-          "03:13 (laagwater)"
-        ]
-      },
-      {
-        "dag": "Lichtfeest in Lissewege",
-        "tijden": [
-          "09:19 (hoogwater)"
-        ]
-      }
-    ],
-    [
-      {
-        "dag": "",
-        "tijden": [
-          "15:53 (laagwater)"
-        ]
-      },
-      {
-        "dag": "",
-        "tijden": [
-          "22:00 (hoogwater)"
-        ]
-      },
-      {
         "dag": "zo. zondag 23 aug augustus",
         "tijden": [
           "04:23 (laagwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "",
         "tijden": [
           "10:47 (hoogwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -56,15 +30,15 @@
         "tijden": [
           "23:31 (hoogwater)"
         ]
-      }
-    ],
-    [
+      },
       {
         "dag": "ma. maandag 24 aug augustus",
         "tijden": [
           "05:36 (laagwater)"
         ]
-      },
+      }
+    ],
+    [
       {
         "dag": "",
         "tijden": [
@@ -75,6 +49,32 @@
         "dag": "",
         "tijden": [
           "18:27 (laagwater)"
+        ]
+      },
+      {
+        "dag": "di. dinsdag 25 aug augustus",
+        "tijden": [
+          "00:33 (hoogwater)"
+        ]
+      }
+    ],
+    [
+      {
+        "dag": "",
+        "tijden": [
+          "06:51 (laagwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "12:53 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "",
+        "tijden": [
+          "19:23 (laagwater)"
         ]
       }
     ]
