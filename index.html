@@ -666,47 +666,51 @@
         </thead>
         <tbody></tbody>
     </table>
-    <script>
-        fetch('data_tides.json')
-            .then(response => response.json())
-            .then(data => {
-                const tbody = document.querySelector('#tidesTable tbody');
-                // Bepaal automatisch de huidige maand en het huidige jaar
-                const maanden = [ "januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"];
-                const vandaag = new Date();
-                const sleutel = `${maanden[vandaag.getMonth()]} ${vandaag.getFullYear()}`;
-                const dagenArrays = data[sleutel];
-                //const dagenArrays = data["juli 2026"];
-                if (!dagenArrays) {
-                    tbody.innerHTML = '<tr><td colspan="2">Geen data</td></tr>';
-                    return;
-                }
-                // Groepeer per dag
-                const dagenFlat = dagenArrays.flat();
-                const dagenGecombineerd = [];
-                let huidigeDag = null;
-                dagenFlat.forEach(item => {
-                    if (item.dag && item.dag.trim() !== "") {
-                        // Nieuwe dag starten
-                        huidigeDag = { dag: item.dag, tijden: [...item.tijden] };
-                        dagenGecombineerd.push(huidigeDag);
-                    } else if (huidigeDag && item.tijden.length) {
-                        // Voeg tijden toe aan huidige dag
-                        huidigeDag.tijden.push(...item.tijden);
-                    }
+<script>
+    fetch('data_tides.json')
+        .then(response => response.json())
+        .then(data => {
+
+            const tbody = document.querySelector('#tidesTable tbody');
+
+            // Alle maanden uit de JSON samenvoegen
+            // zodat een overgang naar een nieuwe maand geen probleem is.
+            const alleDagen = [];
+
+            Object.values(data).forEach(maand => {
+                maand.forEach(groep => {
+                    groep.forEach(dag => {
+                        alleDagen.push(dag);
+                    });
                 });
-                tbody.innerHTML = dagenGecombineerd.map(dag => `
+            });
+
+            // Controleer of er data is
+            if (alleDagen.length === 0) {
+                tbody.innerHTML =
+                    '<tr><td colspan="2">Geen data</td></tr>';
+                return;
+            }
+
+            // De dagen rechtstreeks uit de JSON tonen
+            tbody.innerHTML = alleDagen.map(dag => `
                 <tr>
                     <td data-label="Dag">${dag.dag}</td>
                     <td data-label="Tijden">${dag.tijden.join('<br>')}</td>
                 </tr>
             `).join('');
-            })
-            .catch(err => {
-                document.querySelector('#tidesTable tbody').innerHTML =
-                    `<tr><td colspan="2">Getijden-data niet beschikbaar (${err.message})</td></tr>`;
-            });
-    </script>
+
+        })
+        .catch(err => {
+
+            document.querySelector('#tidesTable tbody').innerHTML =
+                `<tr>
+                    <td colspan="2">
+                        Getijden-data niet beschikbaar (${err.message})
+                    </td>
+                </tr>`;
+        });
+</script>
 
     <h1 id="Regenradar" class="tussentitel">Regenradar :</h1>
     <div class="regenradar-widget">
