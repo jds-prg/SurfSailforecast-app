@@ -2,12 +2,6 @@
   "augustus 2026": [
     [
       {
-        "dag": "zo. zondag 30 aug augustus",
-        "tijden": [
-          "03:20 (hoogwater)"
-        ]
-      },
-      {
         "dag": "ma. maandag 31 aug augustus",
         "tijden": [
           "03:53 (hoogwater)",
@@ -84,6 +78,15 @@
           "05:47 (laagwater)",
           "11:55 (hoogwater)",
           "18:27 (laagwater)"
+        ]
+      },
+      {
+        "dag": "wo. woensdag 9 sep september",
+        "tijden": [
+          "00:30 (hoogwater)",
+          "06:59 (laagwater)",
+          "12:48 (hoogwater)",
+          "19:27 (laagwater)"
         ]
       }
     ]
