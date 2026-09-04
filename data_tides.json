@@ -2,15 +2,6 @@
   "september 2026": [
     [
       {
-        "dag": "do. donderdag 3 sep september",
-        "tijden": [
-          "00:06 (laagwater)",
-          "05:53 (hoogwater)",
-          "12:20 (laagwater)",
-          "18:12 (hoogwater)"
-        ]
-      },
-      {
         "dag": "vr. vrijdag 4 sep september",
         "tijden": [
           "00:51 (laagwater)",
@@ -88,6 +79,15 @@
           "09:07 (laagwater)",
           "14:49 (hoogwater)",
           "21:32 (laagwater)"
+        ]
+      },
+      {
+        "dag": "zo. zondag 13 sep september",
+        "tijden": [
+          "03:14 (hoogwater)",
+          "09:43 (laagwater)",
+          "15:28 (hoogwater)",
+          "22:09 (laagwater)"
         ]
       }
     ]
