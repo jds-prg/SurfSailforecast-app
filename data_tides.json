@@ -2,14 +2,6 @@
   "oktober 2026": [
     [
       {
-        "dag": "vr. vrijdag 2 okt oktober",
-        "tijden": [
-          "05:29 (hoogwater)",
-          "12:00 (laagwater)",
-          "17:52 (hoogwater)"
-        ]
-      },
-      {
         "dag": "za. zaterdag 3 okt oktober",
         "tijden": [
           "00:29 (laagwater)",
@@ -87,6 +79,15 @@
           "08:44 (laagwater)",
           "14:26 (hoogwater)",
           "21:07 (laagwater)"
+        ]
+      },
+      {
+        "dag": "ma. maandag 12 okt oktober",
+        "tijden": [
+          "02:52 (hoogwater)",
+          "09:18 (laagwater)",
+          "15:04 (hoogwater)",
+          "21:42 (laagwater)"
         ]
       }
     ]
