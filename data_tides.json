@@ -2,15 +2,6 @@
   "oktober 2026": [
     [
       {
-        "dag": "wo. woensdag 28 okt oktober",
-        "tijden": [
-          "02:04 (hoogwater)",
-          "08:36 (laagwater)",
-          "14:23 (hoogwater)",
-          "21:01 (laagwater)"
-        ]
-      },
-      {
         "dag": "do. donderdag 29 okt oktober",
         "tijden": [
           "02:45 (hoogwater)",
@@ -22,10 +13,7 @@
       {
         "dag": "vr. vrijdag 30 okt oktober",
         "tijden": [
-          "03:28 (hoogwater)",
-          "10:01 (laagwater)",
-          "15:52 (hoogwater)",
-          "22:28 (laagwater)"
+          "03:28 (hoogwater)"
         ]
       },
       {
@@ -68,6 +56,12 @@
         "dag": "vr. vrijdag 6 nov november",
         "tijden": [
           "05:18 (laagwater)"
+        ]
+      },
+      {
+        "dag": "za. zaterdag 7 nov november",
+        "tijden": [
+          "06:07 (laagwater)"
         ]
       }
     ]
