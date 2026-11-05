@@ -2,75 +2,62 @@
   "november 2026": [
     [
       {
-        "dag": "wo. woensdag 4 nov november",
-        "tijden": [
-          "02:51 (laagwater)"
-        ]
-      },
-      {
         "dag": "do. donderdag 5 nov november",
-        "tijden": [
-          "04:10 (laagwater)"
-        ]
+        "tijden": []
       },
       {
         "dag": "vr. vrijdag 6 nov november",
-        "tijden": [
-          "05:18 (laagwater)"
-        ]
+        "tijden": []
       },
       {
         "dag": "za. zaterdag 7 nov november",
-        "tijden": [
-          "06:07 (laagwater)"
-        ]
+        "tijden": []
       },
       {
         "dag": "zo. zondag 8 nov november",
         "tijden": [
-          "00:21 (hoogwater)"
+          "00:25 (hoogwater)"
         ]
       },
       {
         "dag": "ma. maandag 9 nov november",
         "tijden": [
-          "00:59 (hoogwater)",
-          "07:25 (laagwater)",
-          "13:06 (hoogwater)",
-          "19:42 (laagwater)"
+          "01:05 (hoogwater)",
+          "13:18 (hoogwater)"
         ]
       },
       {
         "dag": "di. dinsdag 10 nov november",
         "tijden": [
-          "01:33 (hoogwater)",
-          "07:58 (laagwater)",
-          "13:44 (hoogwater)",
-          "20:16 (laagwater)"
+          "01:44 (hoogwater)",
+          "13:58 (hoogwater)"
         ]
       },
       {
         "dag": "wo. woensdag 11 nov november",
         "tijden": [
-          "02:08 (hoogwater)"
+          "02:21 (hoogwater)"
         ]
       },
       {
         "dag": "do. donderdag 12 nov november",
         "tijden": [
-          "02:41 (hoogwater)",
-          "08:58 (laagwater)",
-          "14:55 (hoogwater)",
-          "21:14 (laagwater)"
+          "02:57 (hoogwater)",
+          "15:11 (hoogwater)"
         ]
       },
       {
         "dag": "vr. vrijdag 13 nov november",
         "tijden": [
-          "03:14 (hoogwater)",
-          "09:26 (laagwater)",
-          "15:30 (hoogwater)",
-          "21:42 (laagwater)"
+          "03:29 (hoogwater)",
+          "15:43 (hoogwater)"
+        ]
+      },
+      {
+        "dag": "za. zaterdag 14 nov november",
+        "tijden": [
+          "03:57 (hoogwater)",
+          "16:15 (hoogwater)"
         ]
       }
     ]
