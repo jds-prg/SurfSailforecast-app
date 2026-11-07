@@ -123,155 +123,59 @@ def vind_datum(tekst, jaar):
         return None
 
 
-# =========================================================
-# ALLE GETIJDEN VERZAMELEN - NIEUWE HTML-STRUCTUUR
-# =========================================================
-
+# ALLE GETIJDEN VERZAMELEN
 alle_dagen = []
+huidige_dag = None
 
-for jaar, maand_nummer in maanden_nodig:
+for element in soup.find_all('div', class_='row'):
+    cols = element.find_all('div', class_='cell', recursive=False)
 
-    maand = f"{maanden[maand_nummer - 1]} {jaar}"
-
-    print()
-    print(f"Zoeken naar: {maand}")
-
-    kop = soup.find(
-        'h2',
-        string=lambda s:
-        s and maand.lower() in s.lower()
-    )
-
-    if not kop:
-        print(f"Kop {maand} niet gevonden!")
+    # Een geldige rij heeft vijf cellen
+    if len(cols) < 5:
         continue
 
-    print(f"Kop {maand} gevonden!")
+    # Een nieuwe dag begint bij de cel met class 'daycount'
+    if 'daycount' in cols[0].get('class', []):
+        dag_nummer = cols[0].find('span', class_='day')
+        week_dag = cols[0].find('span', class_='weekday')
+        maand_naam = cols[0].find('span', class_='month')
 
-    huidige_dag = None
+        if dag_nummer and week_dag and maand_naam:
+            huidige_dag = {
+                'dag': (
+                    f"{week_dag.get_text(strip=True)} "
+                    f"{dag_nummer.get_text(strip=True)} "
+                    f"{maand_naam.get_text(strip=True)}"
+                ),
+                'tijden': []
+            }
+            alle_dagen.append(huidige_dag)
 
-    for element in kop.find_all_next():
+    # Rijen zonder bijhorende dag overslaan
+    if huidige_dag is None:
+        continue
 
-        # Stop bij volgende maand
-        if element.name == 'h2':
-            break
+    # HOOGWATER: tweede cel (tijd)
+    hoogwater = cols[1].get_text(" ", strip=True)
+    hoogwater_match = re.search(r'\b\d{1,2}:\d{2}\b', hoogwater)
 
-        if (
-            element.name != 'div'
-            or 'row' not in element.get('class', [])
-        ):
-            continue
+    if hoogwater_match:
+        tijd = hoogwater_match.group(0)
+        tekst = f"{tijd} (hoogwater)"
 
-        # De vijf cellen ophalen
-        cols = element.find_all(
-            'div',
-            recursive=False
-        )
+        if tekst not in huidige_dag['tijden']:
+            huidige_dag['tijden'].append(tekst)
 
-        if len(cols) < 5:
-            continue
+    # LAAGWATER: vierde cel (tijd)
+    laagwater = cols[3].get_text(" ", strip=True)
+    laagwater_match = re.search(r'\b\d{1,2}:\d{2}\b', laagwater)
 
-        # =================================================
-        # CONTROLEREN OF DIT EEN NIEUWE DAG IS
-        # =================================================
+    if laagwater_match:
+        tijd = laagwater_match.group(0)
+        tekst = f"{tijd} (laagwater)"
 
-        dagcel = cols[0]
-
-        if 'daycount' in dagcel.get('class', []):
-
-            dagnaam_datum = dagcel.get_text(
-                " ",
-                strip=True
-            )
-
-            datum = vind_datum(
-                dagnaam_datum,
-                jaar
-            )
-
-            if datum:
-
-                huidige_dag = {
-                    "dag": dagnaam_datum,
-                    "datum": datum,
-                    "tijden": []
-                }
-
-                alle_dagen.append(huidige_dag)
-
-        # Geen geldige huidige dag?
-        if huidige_dag is None:
-            continue
-
-        # =================================================
-        # HOOGWATER - KOLOM 2 EN 3
-        # =================================================
-
-        hoogwater_uur = cols[1].get_text(
-            " ",
-            strip=True
-        )
-
-        hoogwater_cm = cols[2].get_text(
-            " ",
-            strip=True
-        )
-
-        hoogwater_match = re.search(
-            r'(\d{1,2}[:.]\d{2})\s*uur',
-            hoogwater_uur
-        )
-
-        hoogte_match = re.search(
-            r'(\d+)\s*cm',
-            hoogwater_cm
-        )
-
-        if hoogwater_match:
-
-            tijd = hoogwater_match.group(1).replace('.', ':')
-
-            tekst = f"{tijd} (hoogwater)"
-
-            if hoogte_match:
-                tekst += f" {hoogte_match.group(1)}m"
-
-            huidige_dag["tijden"].append(tekst)
-
-        # =================================================
-        # LAAGWATER - KOLOM 4 EN 5
-        # =================================================
-
-        laagwater_uur = cols[3].get_text(
-            " ",
-            strip=True
-        )
-
-        laagwater_cm = cols[4].get_text(
-            " ",
-            strip=True
-        )
-
-        laagwater_match = re.search(
-            r'(\d{1,2}[:.]\d{2})\s*uur',
-            laagwater_uur
-        )
-
-        hoogte_match = re.search(
-            r'(\d+)\s*cm',
-            laagwater_cm
-        )
-
-        if laagwater_match:
-
-            tijd = laagwater_match.group(1).replace('.', ':')
-
-            tekst = f"{tijd} (laagwater)"
-
-            if hoogte_match:
-                tekst += f" {hoogte_match.group(1)}m"
-
-            huidige_dag["tijden"].append(tekst)
+        if tekst not in huidige_dag['tijden']:
+            huidige_dag['tijden'].append(tekst)
 
 # =========================================================
 # ALLEEN GELDIGE DATUMS HOUDEN
