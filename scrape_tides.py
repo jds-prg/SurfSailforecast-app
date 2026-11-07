@@ -124,7 +124,7 @@ def vind_datum(tekst, jaar):
 
 
 # =========================================================
-# ALLE GETIJDEN VERZAMELEN - NIEUWE HTML-STRUCTUUR
+# ALLE GETIJDEN VERZAMELEN - NIEUWE HTML-STructuur
 # =========================================================
 
 alle_dagen = []
@@ -204,7 +204,7 @@ for jaar, maand_nummer in maanden_nodig:
             continue
 
         # =================================================
-        # HOOGWATER - KOLOM 2 EN 3
+        # HOOGWATER - KOLOM 2
         # =================================================
 
         hoogwater_uur = cols[1].get_text(
@@ -212,19 +212,9 @@ for jaar, maand_nummer in maanden_nodig:
             strip=True
         )
 
-        hoogwater_cm = cols[2].get_text(
-            " ",
-            strip=True
-        )
-
         hoogwater_match = re.search(
-            r'(\d{1,2}[:.]\d{2})\s*uur',
+            r'(\d{1,2}[:.]\d{2})',
             hoogwater_uur
-        )
-
-        hoogte_match = re.search(
-            r'(\d+)\s*cm',
-            hoogwater_cm
         )
 
         if hoogwater_match:
@@ -233,13 +223,10 @@ for jaar, maand_nummer in maanden_nodig:
 
             tekst = f"{tijd} (hoogwater)"
 
-            if hoogte_match:
-                tekst += f" {hoogte_match.group(1)}m"
-
             huidige_dag["tijden"].append(tekst)
 
         # =================================================
-        # LAAGWATER - KOLOM 4 EN 5
+        # LAAGWATER - KOLOM 4
         # =================================================
 
         laagwater_uur = cols[3].get_text(
@@ -247,19 +234,9 @@ for jaar, maand_nummer in maanden_nodig:
             strip=True
         )
 
-        laagwater_cm = cols[4].get_text(
-            " ",
-            strip=True
-        )
-
         laagwater_match = re.search(
-            r'(\d{1,2}[:.]\d{2})\s*uur',
+            r'(\d{1,2}[:.]\d{2})',
             laagwater_uur
-        )
-
-        hoogte_match = re.search(
-            r'(\d+)\s*cm',
-            laagwater_cm
         )
 
         if laagwater_match:
@@ -268,10 +245,9 @@ for jaar, maand_nummer in maanden_nodig:
 
             tekst = f"{tijd} (laagwater)"
 
-            if hoogte_match:
-                tekst += f" {hoogte_match.group(1)}m"
-
             huidige_dag["tijden"].append(tekst)
+
+
 # =========================================================
 # ALLEEN GELDIGE DATUMS HOUDEN
 # =========================================================
@@ -302,11 +278,6 @@ for dag in alle_dagen:
         unieke_dagen[datum]["tijden"].extend(
             dag["tijden"]
         )
-
-
-alle_dagen = list(
-    unieke_dagen.values()
-)
 
 
 # =========================================================
