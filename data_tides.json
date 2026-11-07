@@ -4,90 +4,90 @@
       {
         "dag": "za. zaterdag 7 nov november",
         "tijden": [
-          "06:02 (laagwater) 67m",
-          "11:56 (hoogwater) 449m",
-          "18:25 (laagwater) 24m"
+          "06:02 (laagwater)",
+          "11:56 (hoogwater)",
+          "18:25 (laagwater)"
         ]
       },
       {
         "dag": "zo. zondag 8 nov november",
         "tijden": [
-          "00:25 (hoogwater) 462m",
-          "06:44 (laagwater) 55m",
-          "12:39 (hoogwater) 461m",
-          "19:06 (laagwater) 23m"
+          "00:25 (hoogwater)",
+          "06:44 (laagwater)",
+          "12:39 (hoogwater)",
+          "19:06 (laagwater)"
         ]
       },
       {
         "dag": "ma. maandag 9 nov november",
         "tijden": [
-          "01:05 (hoogwater) 464m",
-          "07:23 (laagwater) 46m",
-          "13:18 (hoogwater) 466m",
-          "19:45 (laagwater) 28m"
+          "01:05 (hoogwater)",
+          "07:23 (laagwater)",
+          "13:18 (hoogwater)",
+          "19:45 (laagwater)"
         ]
       },
       {
         "dag": "di. dinsdag 10 nov november",
         "tijden": [
-          "01:44 (hoogwater) 461m",
-          "08:00 (laagwater) 42m",
-          "13:58 (hoogwater) 464m",
-          "20:21 (laagwater) 39m"
+          "01:44 (hoogwater)",
+          "08:00 (laagwater)",
+          "13:58 (hoogwater)",
+          "20:21 (laagwater)"
         ]
       },
       {
         "dag": "wo. woensdag 11 nov november",
         "tijden": [
-          "02:21 (hoogwater) 452m",
-          "08:35 (laagwater) 42m",
-          "14:36 (hoogwater) 456m",
-          "20:54 (laagwater) 53m"
+          "02:21 (hoogwater)",
+          "08:35 (laagwater)",
+          "14:36 (hoogwater)",
+          "20:54 (laagwater)"
         ]
       },
       {
         "dag": "do. donderdag 12 nov november",
         "tijden": [
-          "02:57 (hoogwater) 439m",
-          "09:09 (laagwater) 47m",
-          "15:11 (hoogwater) 443m",
-          "21:24 (laagwater) 70m"
+          "02:57 (hoogwater)",
+          "09:09 (laagwater)",
+          "15:11 (hoogwater)",
+          "21:24 (laagwater)"
         ]
       },
       {
         "dag": "vr. vrijdag 13 nov november",
         "tijden": [
-          "03:29 (hoogwater) 423m",
-          "09:39 (laagwater) 57m",
-          "15:43 (hoogwater) 428m",
-          "21:51 (laagwater) 86m"
+          "03:29 (hoogwater)",
+          "09:39 (laagwater)",
+          "15:43 (hoogwater)",
+          "21:51 (laagwater)"
         ]
       },
       {
         "dag": "za. zaterdag 14 nov november",
         "tijden": [
-          "03:57 (hoogwater) 408m",
-          "10:09 (laagwater) 68m",
-          "16:15 (hoogwater) 414m",
-          "22:19 (laagwater) 99m"
+          "03:57 (hoogwater)",
+          "10:09 (laagwater)",
+          "16:15 (hoogwater)",
+          "22:19 (laagwater)"
         ]
       },
       {
         "dag": "zo. zondag 15 nov november",
         "tijden": [
-          "04:27 (hoogwater) 396m",
-          "10:42 (laagwater) 81m",
-          "16:49 (hoogwater) 401m",
-          "22:53 (laagwater) 112m"
+          "04:27 (hoogwater)",
+          "10:42 (laagwater)",
+          "16:49 (hoogwater)",
+          "22:53 (laagwater)"
         ]
       },
       {
         "dag": "ma. maandag 16 nov november",
         "tijden": [
-          "05:02 (hoogwater) 383m",
-          "11:23 (laagwater) 94m",
-          "17:35 (hoogwater) 387m",
-          "23:40 (laagwater) 127m"
+          "05:02 (hoogwater)",
+          "11:23 (laagwater)",
+          "17:35 (hoogwater)",
+          "23:40 (laagwater)"
         ]
       }
     ]
