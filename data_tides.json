@@ -2,15 +2,6 @@
   "november 2026": [
     [
       {
-        "dag": "zo. zondag 15 nov november",
-        "tijden": [
-          "04:27 (hoogwater)",
-          "10:42 (laagwater)",
-          "16:49 (hoogwater)",
-          "22:53 (laagwater)"
-        ]
-      },
-      {
         "dag": "ma. maandag 16 nov november",
         "tijden": [
           "05:02 (hoogwater)",
@@ -87,6 +78,15 @@
           "06:58 (laagwater)",
           "12:50 (hoogwater)",
           "19:21 (laagwater)"
+        ]
+      },
+      {
+        "dag": "wo. woensdag 25 nov november",
+        "tijden": [
+          "01:16 (hoogwater)",
+          "07:43 (laagwater)",
+          "13:34 (hoogwater)",
+          "20:05 (laagwater)"
         ]
       }
     ]
